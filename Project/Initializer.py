@@ -5,7 +5,7 @@ class Initializer_weights:
         raise NotImplementedError("Devi implementare questo metodo nella sottoclasse")
 
 class std_initializer(Initializer_weights):
-    def __init__(self, dim_input, dim_output):
+    def __init__(self, dim_output, dim_input):
         # Salviamo le dimensioni come attributi dell'istanza
         self.dim_input = dim_input
         self.dim_output = dim_output
