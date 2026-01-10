@@ -44,8 +44,3 @@ class momentum_update(update_params):
         Layer.set_bias(b)
 
         return W, b
-    
-
-#A = Layer(1, 2, "relu", "standard")   
-#grad = update_params(eta=0.01)
-#grad.update(Layer)

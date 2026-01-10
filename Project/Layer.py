@@ -27,7 +27,9 @@ class Layer:
         }
 
         initializer_map = {
-            "standard": std_initializer
+            "standard": std_initializer,
+            "gaussian": gaussian_initializer,
+            "he": he_initializer
         }
 
         if isinstance(activation, str):
